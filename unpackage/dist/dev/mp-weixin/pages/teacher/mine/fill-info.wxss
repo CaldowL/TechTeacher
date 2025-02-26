@@ -1,0 +1,112 @@
+
+.content_0 {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(to bottom, rgba(219, 219, 219, 1) 0%, rgba(255, 255, 255, 1) 60%);
+}
+.content_1 {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(to bottom, rgba(166, 190, 237, 1) 0% 0%, rgba(255, 255, 255, 1) 60%);
+}
+.content_2 {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(to bottom, rgba(255, 201, 201, 1) 0% 0%, rgba(255, 255, 255, 1) 60%);
+}
+.avatar_class {}
+.avatar {
+		position: relative;
+		height: 250rpx;
+		width: 600rpx;
+		left: 75rpx;
+		display: flex;
+		justify-content: space-between;
+}
+.avatar_0 {
+		position: relative;
+}
+.avatar_1 {
+		position: relative;
+}
+.avatar_2 {
+		position: relative;
+}
+.avatar_image_0 {
+
+		border-radius: 50%;
+		border-style: solid;
+		border-color: #7E7E7E;
+}
+.avatar_image_1 {
+		border-radius: 50%;
+		border-style: solid;
+		border-color: #548CFF;
+}
+.avatar_image_2 {
+		border-radius: 50%;
+		border-style: solid;
+		border-color: #FF743C;
+}
+.form {
+		position: relative;
+		top: 60px;
+}
+.form-name {
+		position: relative;
+		height: 50px;
+		width: 70%;
+		left: 15%;
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		/* background-color: aqua; */
+}
+.form-name-item {
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 50px;
+}
+.form-name-input_0 {
+		position: relative;
+		height: 50px;
+		width: 330rpx;
+		/* background-color: blueviolet; */
+		border-radius: 30px;
+		border-color: #000000;
+		border-style: solid;
+		border-width: 1px;
+}
+.form-name-input_1 {
+		position: relative;
+		height: 50px;
+		width: 330rpx;
+		/* background-color: blueviolet; */
+		border-radius: 30px;
+		border-color: #548CFF;
+		border-style: solid;
+		border-width: 1px;
+}
+.form-name-input_2 {
+		position: relative;
+		height: 50px;
+		width: 330rpx;
+		/* background-color: blueviolet; */
+		border-radius: 30px;
+		border-color: #FF743C;
+		border-style: solid;
+		border-width: 1px;
+}
+.form-name-pic {
+		position: relative;
+		top: 15px;
+		/* left: 10px; */
+}
+.next {
+		position: fixed;
+		top: 80%;
+		left: 65%;
+}

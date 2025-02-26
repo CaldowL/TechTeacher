@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "排课数",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

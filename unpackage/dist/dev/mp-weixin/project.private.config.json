@@ -1,0 +1,111 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "教师端",
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/student/main",
+          "pathName": "pages/student/main",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/messages/comment",
+          "pathName": "pages/teacher/messages/comment",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/mine/lv",
+          "pathName": "pages/teacher/mine/lv",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/course/grades-fast-in",
+          "pathName": "pages/teacher/course/grades-fast-in",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/course/class-detail",
+          "pathName": "pages/teacher/course/class-detail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/mine/courses",
+          "pathName": "pages/teacher/mine/courses",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/mine/have-fined",
+          "pathName": "pages/teacher/mine/have-fined",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/mine/to-fin",
+          "pathName": "pages/teacher/mine/to-fin",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/mine/mine",
+          "pathName": "pages/teacher/mine/mine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/messages/messages",
+          "pathName": "pages/teacher/messages/messages",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/course/course",
+          "pathName": "pages/teacher/course/course",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/home/home",
+          "pathName": "pages/teacher/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/teacher/mine/fill-info",
+          "pathName": "pages/teacher/mine/fill-info",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,241 @@
+
+::-webkit-scrollbar {
+		display: none;
+}
+.content {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		/* background: linear-gradient(to bottom, #F7EFCB, #F0F0F0 50%, #F0F0F0 50%); */
+}
+.greeting {
+		position: relative;
+		width: 88%;
+		left: 6%;
+		top: 15rpx;
+		font-size: 18px;
+		font-weight: 800;
+}
+.banner {
+		position: relative;
+		width: 660rpx;
+		left: 6%;
+		height: 365rpx;
+		background-color: aqua;
+		top: 40rpx;
+
+		border-radius: 20px;
+		background-color: #EDC307;
+
+		display: flex;
+}
+.banner-item1 {
+		position: relative;
+		height: 270rpx;
+		width: 245rpx;
+		left: 10rpx;
+		top: 5px;
+		background-color: #F9E58E;
+		white-space: nowrap;
+		z-index: 999;
+		border-radius: 20px 0 0 20px;
+}
+.banner-item2 {
+		position: relative;
+		height: 300rpx;
+		width: 398rpx;
+		left: 7rpx;
+		top: 5px;
+		background-color: #F9E58E;
+		border-radius: 0 20px 20px 20px;
+}
+.btn {
+		position: relative;
+		left: 10px;
+		top: 50rpx;
+		width: 190rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+		text-align: center;
+		border-radius: 40px;
+		background-color: #EDC307;
+}
+.time-counter {
+		position: relative;
+		/* background-color: blueviolet; */
+		left: 10rpx;
+		width: 230rpx;
+		height: 65rpx;
+		top: 85rpx;
+		display: flex;
+		justify-content: space-between;
+		color: red;
+}
+.time {
+		position: relative;
+		height: 55rpx;
+		top: 5rpx;
+		width: 55rpx;
+		background-color: white;
+		border-radius: 20rpx;
+		line-height: 55rpx;
+		text-align: center;
+}
+.split {
+		height: 55rpx;
+		top: 5rpx;
+		line-height: 55rpx;
+}
+.avatar {
+		position: relative;
+		height: 300rpx;
+		width: 300rpx;
+		left: 50px;
+}
+.tip {
+		position: relative;
+		font-size: 12px;
+		text-align: center;
+		top: 5rpx;
+}
+.todo {
+		position: relative;
+		top: 90rpx;
+		width: 660rpx;
+		height: 300rpx;
+		left: 45rpx;
+		display: flex;
+		/* background-color: aquamarine;*/
+		overflow-x: auto;
+		white-space: nowrap;
+		flex: 0 0 auto;
+}
+.todo-item {
+		position: relative;
+		width: 270rpx;
+		min-width: 270rpx;
+		height: 270rpx;
+		background-color: white;
+		border-radius: 40rpx;
+		margin-right: 20rpx;
+}
+.todo-item-title-up {
+		position: relative;
+		width: -webkit-fit-content;
+		width: fit-content;
+		text-align: center;
+		top: 25rpx;
+		height: 40rpx;
+		font-size: 25rpx;
+		background-color: rgba(84, 140, 255, 0.2);
+		left: 20rpx;
+		color: #548CFF;
+}
+.todo-item-title {
+		position: relative;
+		width: -webkit-fit-content;
+		width: fit-content;
+}
+.todo-item-date {
+		position: relative;
+		width: -webkit-fit-content;
+		width: fit-content;
+		color: #7E7E7E;
+		top: 37rpx;
+		height: 40rpx;
+		font-size: 28rpx;
+		left: 20rpx;
+}
+.todo-item-time {
+		position: relative;
+		width: -webkit-fit-content;
+		width: fit-content;
+		top: 40rpx;
+		height: 40rpx;
+		font-size: 34rpx;
+		font-weight: 800;
+		left: 20rpx;
+}
+.todo-item-btn {
+		position: relative;
+		background-color: #548CFF;
+		height: 75rpx;
+		width: 230rpx;
+		top: 55rpx;
+		line-height: 75rpx;
+		text-align: center;
+		border-radius: 30px;
+		left: 20rpx;
+		color: white;
+}
+.today-other {
+		position: relative;
+		width: 660rpx;
+		height: 430rpx;
+		left: 45rpx;
+		top: 110rpx;
+
+		overflow-y: auto;
+}
+.today-item {
+		position: relative;
+		width: 660rpx;
+		height: 150rpx;
+		background-color: white;
+		border-radius: 20px;
+		display: flex;
+		margin-bottom: 20rpx;
+}
+.today-item-left {
+		position: relative;
+		height: 150rpx;
+		width: 430rpx;
+		/* background-color: aqua; */
+}
+.today-item-title {
+		position: relative;
+		font-size: 28rpx;
+		color: #548CFF;
+		top: 20rpx;
+		left: 30rpx;
+}
+.today-item-date {
+		position: relative;
+		display: flex;
+		top: 30rpx;
+		left: 30rpx;
+		height: 80rpx;
+}
+.today-item-date-time {
+		position: relative;
+		font-size: 40rpx;
+		font-weight: 800;
+		line-height: 80rpx;
+}
+.today-item-date-person {
+		position: relative;
+		font-size: 28rpx;
+		line-height: 80rpx;
+		left: 20rpx;
+		color: #7E7E7E;
+}
+.today-item-right {
+		position: relative;
+		left: -10rpx;
+}
+.today-item-btn {
+		position: relative;
+		height: 70rpx;
+		width: 200rpx;
+		top: 40rpx;
+		line-height: 70rpx;
+		text-align: center;
+		font-size: 35rpx;
+
+		/* background-color: blueviolet; */
+		border-radius: 25px;
+		color: #548CFF;
+		border-style: solid;
+		border-color: #548CFF;
+		background-color: white;
+}

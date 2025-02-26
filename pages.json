@@ -1,0 +1,137 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#F7EFCB"
+			}
+		},
+		{
+			"path": "pages/teacher/home/home",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/teacher/course/course",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/teacher/messages/messages",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/teacher/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/teacher/mine/fill-info",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#DBDBDB"
+			}
+		},
+		{
+			"path": "pages/teacher/mine/to-fin",
+			"style": {
+				"navigationBarTitleText": "待结算",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/teacher/mine/have-fined",
+			"style": {
+				"navigationBarTitleText": "已收入",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/teacher/mine/courses",
+			"style": {
+				"navigationBarTitleText": "排课数",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/teacher/course/class-detail",
+			"style": {
+				"navigationBarTitleText": "课堂详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/teacher/course/grades-fast-in",
+			"style": {
+				"navigationBarTitleText": "成绩快速录入",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/teacher/mine/lv",
+			"style": {
+				"navigationBarTitleText": "等级",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/teacher/messages/comment",
+			"style": {
+				"navigationBarTitleText": "个人评价",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/student/main",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7E7E7E",
+		"selectedColor": "#548CFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/teacher/home/home",
+				"iconPath": "/static/icon_home.png",
+				"selectedIconPath": "/static/icon-home_sel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/teacher/course/course",
+				"iconPath": "/static/icon_course.png",
+				"selectedIconPath": "/static/icon_course_sel.png",
+				"text": "课程"
+			},
+			{
+				"pagePath": "pages/teacher/messages/messages",
+				"iconPath": "/static/icon-messages.png",
+				"selectedIconPath": "/static/icon_messages_sel.png",
+				"text": "成绩"
+			},
+			{
+				"pagePath": "pages/teacher/mine/mine",
+				"iconPath": "/static/icon-mine.png",
+				"selectedIconPath": "/static/icon_mine_sel.png",
+				"text": "我的"
+			}
+		]
+	}
+}
